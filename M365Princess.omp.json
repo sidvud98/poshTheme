@@ -91,12 +91,18 @@
           "background": "p:teal_blue",
           "foreground": "p:white",
           "properties": {
-            "time_format": "15:04:05"
+            "time_format": "3:04:05 PM"
           },
           "style": "diamond",
           "template": " \ue383 {{ .CurrentDate | date .Format }} ",
           "trailing_diamond": "\ue0b0",
           "type": "time"
+        },
+        {
+
+          "style": "diamond",
+          "template": "\n\ue691",
+          "type": "text"
         }
       ],
       "type": "prompt"
