@@ -50,8 +50,7 @@
           "foreground": "p:white",
           "leading_diamond": "\ue0b6",
           "properties": {
-            "style": "folder",
-            "HyperlinkPath": true
+            "style": "folder"
           },
           "style": "diamond",
           "template": "\ue625 {{ .Path }} ",
@@ -109,5 +108,6 @@
     }
   ],
   "final_space": true,
-  "version": 2
+  "version": 2,
+  "HyperlinkPath": true
 }
