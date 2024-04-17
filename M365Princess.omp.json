@@ -50,9 +50,9 @@
           "foreground": "p:white",
           "leading_diamond": "\ue0b6",
           "properties": {
-            "style": "folder",
             "folder_separator_icon": " \ue0b1 ",
             "home_icon": "~",
+            "style": "folder",
           },
           "style": "diamond",
           "template": "\ue625 {{ .Path }} ",
