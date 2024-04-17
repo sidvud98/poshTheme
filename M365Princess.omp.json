@@ -52,7 +52,7 @@
           "properties": {
             "folder_separator_icon": " \ue0b1 ",
             "home_icon": "~",
-            "style": "folder",
+            "style": "folder"
           },
           "style": "diamond",
           "template": "\ue625 {{ .Path }} ",
