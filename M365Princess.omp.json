@@ -63,7 +63,7 @@
           "background": "p:blush",
           "foreground": "p:white",
           "background_templates": [
-            "{{ if or (.Working.Changed) (.Staging.Changed) }}#DA627D{{ end }}",
+            //"{{ if or (.Working.Changed) (.Staging.Changed) }}#DA627D{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#ab8a20{{ end }}",
             "{{ if gt .Ahead 0 }}#ab8a20{{ end }}",
             "{{ if gt .Behind 0 }}#ab8a20{{ end }}"
