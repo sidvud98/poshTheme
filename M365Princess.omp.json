@@ -50,12 +50,13 @@
           "foreground": "p:white",
           "leading_diamond": "\ue0b6",
           "properties": {
-            "style": "folder"
+            "style": "folder",
+            "max_depth": 2
           },
           "style": "diamond",
           "template": "\ue625 {{ .Path }} ",
           "type": "path"
-        },      
+        },
         {
           "type": "git",
           "style": "powerline",
