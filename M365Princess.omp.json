@@ -55,7 +55,7 @@
           "style": "diamond",
           "template": "\ue625 {{ .Path }} ",
           "type": "path"
-        },      
+        },
         {
           "type": "git",
           "style": "powerline",
